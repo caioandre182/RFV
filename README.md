@@ -26,7 +26,7 @@ Segmentando os grupos, em 4 categorias, <code>(A,B,C,D)</code>, a partir da téc
 
 O projeto está hospedado no heroku, pode ser acessado clicando <a href="https://rfv-test.herokuapp.com/">aqui</a>.
 
-O arquivo <code>.csv</code> para realizar a segmentação, estará disponível no repositório do <a href="https://github.com/caioandre182/RFV">github</a>.
+O arquivo <code>.csv</code> para realizar a segmentação, estará disponível no repositório do <a href="https://github.com/caioandre182/RFV/tree/main/input">github</a>.
 
 
 ## Autores
