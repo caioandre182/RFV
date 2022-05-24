@@ -1,62 +1,34 @@
-# Título do projeto
+# RFV - Referência, Frequência e Valor
 
-Um simples resumo do uso/propósito do projeto.
+Projeto para consolidar o conhecimento na técnica RFV.
 
 ## Descrição do projeto
 
-Um parágrafo aprofundando mais sobre o seu projeto e uma explicação geral do uso.
+<b>RFV</b> é uma técnica de segmentação para agrupar clientes com caractéristicas parecidas.
+<ul>
+<li><b>Recência</b> -> Última vez que o cliente utilizou/comprou o serviço/produto, <i>quanto menor for o valor, melhor para a empresa</i>, significa que é um cliente ativo.</li>
+<li><b>Frequência</b> -> A quantidade de vez que o cliente utilizou/comprou um serviço ou produto, <i>quanto menor for o valor, melhor para a empresa</i>.</li>
+<li><b>Valor</b> -> O montante em dinheiro que o cliente gastou com serviços/produtos da empresa, <i>quanto menor for o valor, melhor para a empresa</i>.</li>
+</ul>
+Segmentando os grupos, em 4 categorias, <code>(A,B,C,D)</code>, a partir da técnica de Quartis, podemos determinar campanhas de marketing, se vale a pena ou não insistir em um determinado grupo de clientes, diversos usos são aplicados.
 
 ## Utilização
 
 ### Dependencias
 
-* Descreve quaisquer prerequisitos, bibliotecas, versão do SO, etc., que é necessário para rodar o projeto.
-* exemplo. Windows 10...
-
-### Instalação
-
-* Como/aonde fazer o download do seu projeto/programa
-* Quaisquer modificação necessária nos arquivos/diretórios
+<ul>
+	<li>pandas -U</li>
+	<li>streamlit -U</li>
+	<li>install xlsxwriter -U</li>
+</ul>
 
 ### Executando o projeto
 
-* Como rodar o projeto/programa
-* Passo a passo em tópicos (bullet points)
-```
-bloco de código para os comandos necessários
-```
+O projeto está hospedado no heroku, pode ser acessado clicando <a href="https://rfv-test.herokuapp.com/">aqui</a>.
 
-## Ajuda
+O arquivo .csv para realizar a segmentação, estará disponível no repositório do github<a href=""></a>.
 
-Qualquer ponto importante de problemas ou erros comuns
-```
-comando para rodar se o programa tiver uma informação de ajuda
-```
 
 ## Autores
 
-Nomes dos desenvolvedores do projeto e informação para entrar em contato.
-
-ex. Lucas Serra  
-ex. [@LucasSerra](https://www.linkedin.com/in/lucasserra03/)
-
-## Histórico de versões.
-
-* 0.2
-	* Ajustes de diversos bugs e otimização
-* 0.1
-    * Primeira versão
-
-## Licença de uso
-
-Esse projeto possui licença de uso [NAME HERE] - acesse o arquivo LICENSE.md para mais detalhes.
-
-## Fontes de inspiração
-
-Inspiração, trechos de códigos utilizados, etc.
-* [readme-template](https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc)
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
+[@CaioAndre](https://github.com/caioandre182)
