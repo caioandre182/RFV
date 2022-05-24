@@ -1,4 +1,4 @@
-# RFV - Referência, Frequência e Valor
+# RFV - Recência, Frequência e Valor
 
 Projeto para consolidar o conhecimento na técnica RFV.
 
